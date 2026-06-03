@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Professional portfolio of Michael Hernandez — Product Owner & Project Manager bridging product vision and seamless execution with Agile and data-driven methodologies.">
+    <title>Michael Hernandez | Product & Project Manager Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements for Premium Glow effect -->
+    <div class="glow-bg">
+        <div class="glow-circle glow-1"></div>
+        <div class="glow-circle glow-2"></div>
+        <div class="glow-circle glow-3"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="nav-logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 36 36" width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                                <stop offset="0%" stop-color="#ff0000" />
+                                <stop offset="100%" stop-color="#800000" />
+                            </linearGradient>
+                        </defs>
+                        <!-- Outer rotated square (diamond) -->
+                        <rect x="18" y="2" width="22.63" height="22.63" rx="4" transform="rotate(45 18 2)"
+                            fill="url(#logo-grad)" />
+                        <!-- Inner letter M -->
+                        <text x="18" y="23" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="800"
+                            font-size="18" fill="#ffffff">M</text>
+                    </svg>
+                </span>
+                <span class="logo-text"><span class="gradient-text">Mike's</span><span
+                        class="logo-sub">Area</span></span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#roles" class="nav-link">Roles</a></li>
+                    <li><a href="#projects" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link btn-contact-nav">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">Let's Talk</a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="section hero-section" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge hero-badge">
+                        <i data-lucide="spade" class="icon-sm"></i>
+                        <span>Product Management</span>
+                    </div>
+                    <h1 class="hero-title">
+                        Passionate as <br>
+                        <span class="gradient-text">Project Manager and Product Owner</span> . <br>
+                    </h1>
+                    <!-- <p class="hero-subtitle">
+                        A Product Owner & Project Manager with a degree in Informatics Engineering, focused on aligning
+                        stakeholders, managing product backlog priorities, and ensuring on-time project delivery.
+                    </p> -->
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Experience</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i data-lucide="mail"></i>
+                        </a>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number">3.25</h3>
+                            <p class="stat-label">CGPA (Informatics Eng.)</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">4+</h3>
+                            <p class="stat-label">Companies & Internships</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">100%</h3>
+                            <p class="stat-label">Agile Delivery Focus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Visual (Interactive Mockup Card) -->
+                <div class="hero-visual">
+                    <div class="visual-card main-visual-card">
+                        <div class="card-header">
+                            <div class="window-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <span class="card-title-bar">Michael Hernandez</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="code-line"><span class="code-keyword">const</span> professionalProfile = {</div>
+                            <div class="code-line indent-1"><span class="code-property">name</span>: <span
+                                    class="code-string">"Michael Hernandez"</span>,</div>
+                            <div class="code-line indent-1"><span class="code-property">currentRole</span>: <span
+                                    class="code-string">"Product Owner at Assist.id"</span>,</div>
+                            <div class="code-line indent-1"><span class="code-property">pastExperience</span>: [<span
+                                    class="code-string">"HYGE"</span>, <span class="code-string">"PT Pegadaian"</span>,
+                                <span class="code-string">"Virtual Spirit"</span>],
+                            </div>
+                            <div class="code-line indent-1"><span class="code-property">coreExpertise</span>: {</div>
+                            <div class="code-line indent-2"><span class="code-property">agile</span>: <span
+                                    class="code-string">"Scrum, Sprint &amp; Backlog Tracking"</span>,</div>
+                            <div class="code-line indent-2"><span class="code-property">uxDesign</span>: <span
+                                    class="code-string">"Figma wireframes &amp; flow"</span></div>
+                            <div class="code-line indent-1">}</div>
+                            <div class="code-line">};</div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badge Cards -->
+                    <div class="floating-card badge-card-1">
+                        <div class="card-icon bg-purple">
+                            <i data-lucide="compass"></i>
+                        </div>
+                        <div class="card-info">
+                            <h4>Project Manager</h4>
+                            <p>Backlog &amp; Stakeholders</p>
+                        </div>
+                    </div>
+
+                    <div class="floating-card badge-card-2">
+                        <div class="card-icon bg-cyan">
+                            <i data-lucide="git-pull-request"></i>
+                        </div>
+                        <div class="card-info">
+                            <h4>Product Owner</h4>
+                            <p>Scrum &amp; End-to-end Delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dual Role Section -->
+        <section class="section roles-section" id="roles">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Two Roles, One Commitment</h2>
+                    <p class="section-subtitle">How I combine value-driven perspectives as a Product Owner with
+                        efficient project management as a Project Manager.</p>
+                </div>
+
+                <div class="roles-grid">
+                    <!-- PM/PO Card -->
+                    <div class="role-card card-glass-purple">
+                        <div class="role-icon">
+                            <i data-lucide="lightbulb"></i>
+                        </div>
+                        <h3 class="role-name">Product Owner</h3>
+                        <p class="role-desc">
+                            Translating business needs from stakeholders into a clear product vision and managing
+                            backlog priorities to keep the development team aligned and focused.
+                        </p>
+                        <ul class="role-list">
+                            <li><i data-lucide="check-circle" class="icon-purple"></i> Stakeholder Collaboration</li>
+                            <li><i data-lucide="check-circle" class="icon-purple"></i> Product Backlog Prioritization
+                            </li>
+                            <li><i data-lucide="check-circle" class="icon-purple"></i> User Story Clarification for Dev
+                                Team</li>
+                            <li><i data-lucide="check-circle" class="icon-purple"></i> Product Vision & Quality
+                                Assurance</li>
+                            <li><i data-lucide="check-circle" class="icon-purple"></i> Agile & Scrum Methodology</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project Manager Card -->
+                    <div class="role-card card-glass-cyan">
+                        <div class="role-icon">
+                            <i data-lucide="sliders"></i>
+                        </div>
+                        <h3 class="role-name">Project Manager</h3>
+                        <p class="role-desc">
+                            Planning and overseeing end-to-end project execution, mitigating risks, and aligning
+                            cross-functional team collaboration for on-time delivery.
+                        </p>
+                        <ul class="role-list">
+                            <li><i data-lucide="check-circle" class="icon-cyan"></i> End-to-End Project Planning</li>
+                            <li><i data-lucide="check-circle" class="icon-cyan"></i> Cross-Functional Team Coordination
+                            </li>
+                            <li><i data-lucide="check-circle" class="icon-cyan"></i> Risk Identification & Mitigation
+                            </li>
+                            <li><i data-lucide="check-circle" class="icon-cyan"></i> Milestone & Timeline Tracking</li>
+                            <li><i data-lucide="check-circle" class="icon-cyan"></i> Project Blocker Management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects / Case Studies Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Work History</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <p class="section-subtitle">Case studies and real-world implementations from my roles across various
+                        industries.</p>
+
+                    <!-- Filters -->
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="product">Product Owner</button>
+                        <button class="filter-btn" data-filter="project">Project Management</button>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1: Assist.id -->
+                    <div class="project-card card-glass" data-category="product">
+                        <div class="project-image-placeholder img-1">
+                            <div class="project-tag-badge bg-purple-badge">Product Owner</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-card-title">Assist.id</h3>
+                            <p class="project-card-text">
+                                Drive product development by translating business needs into actionable requirements,
+                                prioritizing product backlogs, and collaborating closely with development teams to
+                                deliver valuable digital solutions.
+                            </p>
+                            <div class="project-meta-details">
+                                <div class="meta-item">
+                                    <span class="meta-label">Location: </span>
+                                    <span class="meta-val">Pekanbaru, Indonesia.</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Type:</span>
+                                    <span class="meta-val">Full-time | On-site</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Period:</span>
+                                    <span class="meta-val">October 2024 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2: HYGE -->
+                    <div class="project-card card-glass" data-category="project">
+                        <div class="project-image-placeholder img-2">
+                            <div class="project-tag-badge bg-cyan-badge">Project Manager</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-card-title">HYGE</h3>
+                            <p class="project-card-text">
+                                Managed end-to-end project delivery, coordinating cross-functional teams and
+                                stakeholders to
+                                ensure projects were completed on time, within scope, and aligned with business
+                                objectives.
+                            </p>
+                            <div class="project-meta-details">
+                                <div class="meta-item">
+                                    <span class="meta-label">Location: </span>
+                                    <span class="meta-val">North, Singapore.</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Type:</span>
+                                    <span class="meta-val">Part-time | Remote</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Period:</span>
+                                    <span class="meta-val">January 2026 - March 2026</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3: PT Pegadaian -->
+                    <div class="project-card card-glass" data-category="product">
+                        <div class="project-image-placeholder img-3">
+                            <div class="project-tag-badge bg-purple-badge">Product Operations</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-card-title">PT. Pegadaian</h3>
+                            <p class="project-card-text">
+                                Promoted digital service adoption by educating customers and creating instructional
+                                materials that improved understanding and usage of Pegadaian's digital platforms.
+                            </p>
+                            <div class="project-meta-details">
+                                <div class="meta-item">
+                                    <span class="meta-label">Location:</span>
+                                    <span class="meta-val">Pekanbaru, Indonesia.</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Type:</span>
+                                    <span class="meta-val">Freelance | On-site</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Period:</span>
+                                    <span class="meta-val">May 2024 - June 2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 4: Virtual Spirit -->
+                    <div class="project-card card-glass" data-category="product">
+                        <div class="project-image-placeholder img-4">
+                            <div class="project-tag-badge bg-purple-badge">UX Research &amp; Design</div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-card-title">Virtual Spirit</h3>
+                            <p class="project-card-text">
+                                Conducted user research and designed user-centered solutions through information
+                                architecture, user flows, wireframes, and collaborative problem-solving processes.
+                            </p>
+                            <div class="project-meta-details">
+                                <div class="meta-item">
+                                    <span class="meta-label">Location:</span>
+                                    <span class="meta-val">Selangor, Malaysia.</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Type:</span>
+                                    <span class="meta-val">Internship | Remote</span>
+                                </div>
+                                <div class="meta-item">
+                                    <span class="meta-label">Period:</span>
+                                    <span class="meta-val">February 2023 - August 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Toolkit / Tech stack -->
+        <section class="section toolkit-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Toolkit That I Used</h2>
+                    <p class="section-subtitle">Tools and platforms I use daily to document, design, monitor, and
+                        coordinate projects.</p>
+                </div>
+
+                <div class="toolkit-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper"><i data-lucide="layers" class="tool-icon"></i></div>
+                        <span>Jira / Confluence</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper"><i data-lucide="figma" class="tool-icon"></i></div>
+                        <span>Figma</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper"><i data-lucide="bar-chart-3" class="tool-icon"></i></div>
+                        <span>Mixpanel / Amplitude</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper"><i data-lucide="book-open" class="tool-icon"></i></div>
+                        <span>Notion / Miro</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper"><i data-lucide="slack" class="tool-icon"></i></div>
+                        <span>Slack / Teams</span>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper"><i data-lucide="trello" class="tool-icon"></i></div>
+                        <span>Trello / Asana</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Timeline Section -->
+        <section class="section process-section" id="process">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Workflow</span>
+                    <h2 class="section-title">How I Work</h2>
+                    <p class="section-subtitle">The end-to-end framework I apply from initial ideation through final
+                        launch.</p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Step 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card-glass">
+                            <span class="step-num">01</span>
+                            <h3>Discovery &amp; Problem Definition</h3>
+                            <p>Analyzing business needs, conducting user research, and defining real problems to find
+                                high-value solutions.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card-glass">
+                            <span class="step-num">02</span>
+                            <h3>Requirements &amp; Backlog Management</h3>
+                            <p>Writing clear product requirements, composing user stories and acceptance criteria, and
+                                tactically managing product backlog priorities.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card-glass">
+                            <span class="step-num">03</span>
+                            <h3>Sprint Execution &amp; Risk Mitigation</h3>
+                            <p>Leading collaboration with the development team during sprints, clarifying technical
+                                questions, and identifying risks to ensure on-time delivery.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card-glass">
+                            <span class="step-num">04</span>
+                            <h3>UAT, Release &amp; Stakeholder Review</h3>
+                            <p>Ensuring UAT completion with the QA team, releasing the product to users, and aligning
+                                release evaluations with stakeholders.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education" style="background: rgba(255, 0, 0, 0.015);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Education</span>
+                    <h2 class="section-title">Academic Background</h2>
+                    <p class="section-subtitle">Formal education that supports my foundational understanding of software
+                        engineering.</p>
+                </div>
+
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <div class="card-glass"
+                        style="padding: 2.5rem; display: flex; flex-direction: column; gap: 1.5rem; position: relative; border-left: 4px solid var(--color-primary);">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                            <div>
+                                <h3 style="font-size: 1.5rem; margin-bottom: 0.25rem;">Politeknik Caltex Riau</h3>
+                                <p style="font-weight: 600; color: var(--color-primary);">Bachelor's Degree &ndash;
+                                    Informatics Engineering (Teknik Informatika)</p>
+                            </div>
+                            <div style="text-align: right; font-size: 0.9rem; color: var(--color-text-secondary);">
+                                <div>Pekanbaru, Indonesia</div>
+                                <div>Sept 2020 &ndash; Oct 2024</div>
+                            </div>
+                        </div>
+                        <p style="color: var(--color-text-secondary); margin-top: 0.5rem;">
+                            Graduated with satisfactory honors, specializing in software engineering fundamentals,
+                            algorithms, information architecture, and information systems development methodologies.
+                        </p>
+                        <div class="rice-badge" style="align-self: flex-start; font-weight: 600;">
+                            CGPA: 3.25 / 4.00 (159 SKS)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="badge contact-badge">
+                            <i data-lucide="mail" class="icon-sm"></i>
+                            <span>Contact Me</span>
+                        </div>
+                        <h2 class="contact-title">Let's Collaborate to Build Great Products</h2>
+                        <p class="contact-text">
+                            Looking for a Product Owner focused on alignment and backlog quality, or a reliable Project
+                            Manager who keeps delivery timelines on track? Let's connect and discuss further.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i data-lucide="mail"></i></div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <a href="mailto:michaellllhernandezzz@gmail.com"
+                                        class="detail-value">michaellllhernandezzz@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i data-lucide="phone"></i></div>
+                                <div>
+                                    <span class="detail-label">Phone / WhatsApp</span>
+                                    <a href="tel:+6285216043456" class="detail-value">+62 85216043456</a>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="detail-icon"><i data-lucide="map-pin"></i></div>
+                                <div>
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Pekanbaru, Riau, Indonesia (Available for Remote)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://linkedin.com" target="_blank" class="social-btn" aria-label="LinkedIn"><i
+                                    data-lucide="linkedin"></i></a>
+                            <a href="https://github.com" target="_blank" class="social-btn" aria-label="GitHub"><i
+                                    data-lucide="github"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container card-glass">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="name@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5"
+                                    placeholder="Write your collaboration plan or questions here..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <span>Send Message</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Michael Hernandez.</p>
+            <ul class="footer-links">
+                <li><a href="#hero">Top</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
